@@ -7,9 +7,9 @@ spec:
   # ports:
   ports:
     - name: http
-      port: 9097
+      port: 80
       protocol: TCP
-      targetPort: 9097
+      targetPort: 80
   selector:
     app: nginx-test
   type: NodePort
